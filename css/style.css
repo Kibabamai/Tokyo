@@ -1,0 +1,189 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Inter', sans-serif;
+}
+a{
+text-decoration: none;
+}
+img{
+    max-width:100% ;
+    height: auto;
+}
+.menu{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.logo-link{
+    width: 70px;
+}
+.main-menu-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.main-menu{
+    flex-grow: 1;
+}
+.main-menu-list a{
+    color:black;
+    font-size: 30px;
+    line-height: 50px;
+}
+.main-menu-list a:hover{
+    color: cadetblue;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b5d4c5;
+    padding: 35px 0;
+  
+  
+    
+}
+.hash{
+    font-size: 21px;
+    font-weight: bold;
+    line-height:26px;
+}
+.foot-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+.social-button{
+    margin: 0 10px;
+    
+}
+.copy{
+    font-size: 14px;
+    height: 26px;
+}
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+.footer-wrapper{
+    background-color:#b5d4c5;
+}
+h2{
+    color: #2A3D8F;
+    font-size: 36px;
+    line-height: 49px;
+}
+.fon{
+background-image: url(../img/beg.jpg);
+height: 558px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+h3{
+    font-size: 30px;
+    line-height: 41px;
+}
+.flexh1{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+.fon h1{
+    font-size: 60px;
+    color:rgb(255, 255, 255);
+    background-color: turquoise;
+    opacity: 0.7;
+}
+.wraper{
+display: flex;
+justify-content: space-between;
+}
+.about-number-list{
+list-style: none;
+padding-left: 20px;
+}
+.about-number-list li::before{
+content:"✓";
+margin-right: 5px;
+}
+.ad{
+    background-image:url(../img/ader.jpg)  ;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+
+}
+.ad p{
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 33px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.ad a{
+display: inline-block;
+color: black;
+background-color: blanchedalmond;
+align-self: flex-end;
+padding: 5px 10px;
+text-transform: uppercase;
+opacity: 0.7;
+}
+.about-weather-graph{
+    border: 1px solid #c0c0c0;
+    display: flex;
+    flex-direction: column;
+
+}
+.text{
+    background-color: darkgray;    
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    font-size: 22px;
+    line-height:33px ;
+}
+.gallery-list{
+    display: flex;
+    flex-direction: column;
+}
+.gallery-item{
+    display: flex;
+    align-items: center;
+    min-height: 256px;
+     background-color: #b5d4c5;
+     color: rgb(255, 255, 255);
+     margin: 10px 0;
+
+}
+.gallery-item h3{
+    flex-grow: 1;
+    text-align: center;
+}
+.gallery-item img{
+    width: 550px;
+}
+.transfer{
+    margin: 0 auto;
+border-collapse: collapse;
+width: 600px;
+text-align: center;
+}
+.transfer td, .transfer th{
+    border:1px solid black ;
+}
+.transfer th{
+    background-color: #202e5c;
+    color:white;
+    
+}
+
+
